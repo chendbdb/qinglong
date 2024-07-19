@@ -1,14 +1,21 @@
 # 青龙面板脚本
 
+<h4>用于储存本人制作的脚本</h4>
 
-用于储存本人制作的脚本
+* 源码没有加密 也没必要加密
+* 实际运行环境可以在任意环境
+* 如果不嫌麻烦可以考虑使用 [serv00](https://www.serv00.com/) 免费服务器
 
-源码没有加密 也没必要加密
+<p>如有时间我会增加更多的脚本，如果有想做的脚本也可以联系我</p>
+<h4>抓包工具</h4>
 
+|平台|工具名字|地址|
+|--|--|--|
+|Windows|Fiddler|[官网](https://www.telerik.com/fiddler)|
+|IOS|SSL Kill Switch 3|[SSL Kill Switch 3](https://github.com/NyaMisty/ssl-kill-switch3)|
 
+<h6>个人制作 并不能保证完美运行
+有需要调整请微信联系我  Tou_taozi</h6>
 
-
-个人制作 并不能保证完美运行
-有需要调整请微信联系我  **Tou_taozi**
 
 
