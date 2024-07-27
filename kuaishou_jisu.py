@@ -11,15 +11,19 @@ SIGN_LOG = 'logs/kuaishou_sign.log'
 work_path = os.path.dirname(os.path.abspath(__file__))
 SIGN_LOG_FILE = os.path.join(work_path, SIGN_LOG)
 
-# 这里填写你的 cookie
-refresh_token = ""
-# 走路和签到的 有点区别 多抓一下
-a_token = ""
 
-if refresh_token is None:
-    print("请先在环境变量里添加 快手 token")
+# 获取环境变量
+_cookie = os.getenv('KSJSB_COOKIE')
+_cookie2 = os.getenv('KSJSB_COOKIE2')
+
+# 检查变量是否存在
+if _cookie == '':
+    print("请先在环境变量里添加 \"KS_COOKIE\" 填写对应快手的 cookie 值")
     exit(0)
 
+if _cookie2 == '':
+    print("请先在环境变量里添加 \"KS_COOKIE2\" 填写对应快手的 cookie 值")
+    exit(0)
 
 def get_baoxiang(token):
     print('开始领取宝箱 💎💎')
@@ -269,10 +273,11 @@ def get_qiandao(token):
 
 
 def main():
-    get_baoxiang(refresh_token)
-    get_fanbu(refresh_token)
-    get_walk(a_token)
-    get_qiandao(a_token)
-    get_money(refresh_token)
+    get_baoxiang(_cookie)
+    get_fanbu(_cookie)
+    get_walk(_cookie2)
+    get_qiandao(_cookie2)
+    get_money(_cookie)
+
 if __name__ == '__main__':
     main()
