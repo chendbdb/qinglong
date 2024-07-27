@@ -11,8 +11,11 @@ SIGN_LOG = 'logs/kuaishou.log'
 work_path = os.path.dirname(os.path.abspath(__file__))
 SIGN_LOG_FILE = os.path.join(work_path, SIGN_LOG)
 
-# 这里填写你的 cookie
-a_token = ""
+_cookie = os.getenv('KS_COOKIE')
+# 检查变量是否存在
+if _cookie == '':
+    print("请先在环境变量里添加 \"KS_COOKIE\" 填写对应快手的 cookie 值")
+    exit(0)
 
 
 def get_baoxiang(token):
@@ -266,11 +269,11 @@ def get_qiandao(token):
 
 
 def main():
-    get_qiandao(a_token)
-    get_baoxiang(a_token)
-    get_fanbu(a_token)
-    get_walk(a_token)
-    get_money(a_token)
+    get_qiandao(_cookie)
+    get_baoxiang(_cookie)
+    get_fanbu(_cookie)
+    get_walk(_cookie)
+    get_money(_cookie)
 
 if __name__ == '__main__':
     main()
