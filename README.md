@@ -33,8 +33,12 @@
 |IOS|SSL Kill Switch 3|[SSL Kill Switch 3](https://github.com/NyaMisty/ssl-kill-switch3)|
 
 <h6>个人制作 并不能保证完美运行
-有需要调整请微信联系我  Tou_taozi</h6>
-电报  [I_love_xxt](https://t.me/I_love_xxt)
+有需要调整请联系我 Tou_taozi 
+</h6>
+
+###### [电报 @I_love_xxt](https://t.me/I_love_xxt)
+
+
 
 
 
