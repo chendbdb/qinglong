@@ -41,6 +41,18 @@
 |步数换金币|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/walking/detail|
 |签到|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/signIn/report|
 
+``` python
+def main():
+    _cookie = "你的cookie" 
+    get_baoxiang(_cookie, "宝箱sig")
+    get_fanbu(_cookie, "饭补sig")
+    get_walk(_cookie, "走路换金币sig")
+    get_qiandao(_cookie, "签到sig")
+    get_money(_cookie)
+    
+if __name__ == '__main__':
+    main()
+```
 
 
 <h6>个人制作 并不能保证完美运行
