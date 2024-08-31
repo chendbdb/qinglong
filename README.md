@@ -33,6 +33,7 @@
 
 ## 相关抓取连接地址
 * 得到sig3 或者 sig4 后替换脚本尾部相同的值
+
 |操作|特征地址|
 |--|--|
 |宝箱|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/treasureBox/report|
