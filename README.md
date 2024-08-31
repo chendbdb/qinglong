@@ -24,13 +24,23 @@
 * 也就是意味着，此值每个操作都需要单独设置
 * 也同样意味着，此值可以长期持有进行提交
 
-
-
-## 所使用的工具
-|平台|工具名字|地址|
+|脚本|平台|工具名字|
 |--|--|--|
-|Windows|Fiddler|[官网](https://www.telerik.com/fiddler)|
-|IOS|SSL Kill Switch 3|[SSL Kill Switch 3](https://github.com/NyaMisty/ssl-kill-switch3)|
+|kuaishou.py|KS_COOKIE|快手|
+|kuaishou_jisu.py|KSJSB_COOKIE|快手极速版|
+
+
+
+## 相关抓取连接地址
+* 得到sig3 或者 sig4 后替换脚本尾部相同的值
+|操作|特征地址|
+|--|--|
+|宝箱|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/treasureBox/report|
+|饭补|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/dish/report|
+|步数换金币|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/walking/detail|
+|签到|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/signIn/report|
+
+
 
 <h6>个人制作 并不能保证完美运行
 有需要调整请联系我 Tou_taozi 
