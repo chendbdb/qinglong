@@ -38,7 +38,7 @@
 |--|--|
 |宝箱|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/treasureBox/report|
 |饭补|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/dish/report|
-|步数换金币|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/walking/detail|
+|步数换金币（失效了）|https://encourage.kuaishou.com/rest/wd/encourage/unionTask/walking/detail|
 |签到|https://nebula.kuaishou.com/rest/wd/encourage/unionTask/signIn/report|
 
 ``` python
@@ -46,7 +46,7 @@ def main():
     _cookie = "你的cookie" 
     get_baoxiang(_cookie, "宝箱sig")
     get_fanbu(_cookie, "饭补sig")
-    get_walk(_cookie, "走路换金币sig")
+    get_walk(_cookie, "走路换金币sig") #失效了
     get_qiandao(_cookie, "签到sig")
     get_money(_cookie)
     
